@@ -27,7 +27,7 @@ AI::NeuralNet::SOM - proste SOM (Samo-Organizuj±ce siê Odwzorowania)
 Kohonena.
 
 %prep
-%setup -q -n %{name}-%{version} -c
+%setup -q -c
 
 %build
 %{__perl} Makefile.PL \
@@ -38,7 +38,8 @@ Kohonena.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
