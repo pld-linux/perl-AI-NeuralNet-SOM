@@ -9,7 +9,7 @@ Summary:	AI::NeuralNet::SOM - simple Kohonen Self-Organizing Maps
 Summary(pl):	AI::NeuralNet::SOM - proste SOM Kohonena
 Name:		perl-AI-NeuralNet-SOM
 Version:	0.02
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
