@@ -10,7 +10,8 @@ Summary(pl):	AI::NeuralNet::SOM - proste SOM Kohonena
 Name:		perl-AI-NeuralNet-SOM
 Version:	0.02
 Release:	5
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dc75102fb80be96677461d3838847805
