@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	AI
 %define		pnam	NeuralNet-SOM
-Summary:	AI::NeuralNet::SOM - A simple Kohonen Self-Organizing Maps
+Summary:	AI::NeuralNet::SOM - simple Kohonen Self-Organizing Maps
 Summary(pl):	AI::NeuralNet::SOM - proste SOM Kohonena
 Name:		perl-AI-NeuralNet-SOM
 Version:	0.02
@@ -20,10 +20,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-AI::NeuralNet::SOM - A simple Kohonen Self-Organizing Maps.
+AI::NeuralNet::SOM - simple Kohonen Self-Organizing Maps.
 
 %description -l pl
-AI::NeuralNet::SOM - proste SOM (Samo-Organizuj±ce siê Odwzorowania)
+AI::NeuralNet::SOM - proste SOM (samoorganizuj±ce siê odwzorowania)
 Kohonena.
 
 %prep
