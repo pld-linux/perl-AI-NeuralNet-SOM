@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	AI
-%define	pnam	NeuralNet-SOM
+%define		pdir	AI
+%define		pnam	NeuralNet-SOM
 Summary:	AI::NeuralNet::SOM - simple Kohonen Self-Organizing Maps
 Summary(pl):	AI::NeuralNet::SOM - proste SOM Kohonena
 Name:		perl-AI-NeuralNet-SOM
