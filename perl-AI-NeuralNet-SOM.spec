@@ -6,7 +6,7 @@
 %define		pdir	AI
 %define		pnam	NeuralNet-SOM
 Summary:	AI::NeuralNet::SOM - simple Kohonen Self-Organizing Maps
-Summary(pl):	AI::NeuralNet::SOM - proste SOM Kohonena
+Summary(pl.UTF-8):   AI::NeuralNet::SOM - proste SOM Kohonena
 Name:		perl-AI-NeuralNet-SOM
 Version:	0.02
 Release:	6
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 AI::NeuralNet::SOM - simple Kohonen Self-Organizing Maps.
 
-%description -l pl
-AI::NeuralNet::SOM - proste SOM (samoorganizuj±ce siê odwzorowania)
+%description -l pl.UTF-8
+AI::NeuralNet::SOM - proste SOM (samoorganizujÄ…ce siÄ™ odwzorowania)
 Kohonena.
 
 %prep
