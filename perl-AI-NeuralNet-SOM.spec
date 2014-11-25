@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	AI
 %define		pnam	NeuralNet-SOM
+%include	/usr/lib/rpm/macros.perl
 Summary:	AI::NeuralNet::SOM - simple Kohonen Self-Organizing Maps
 Summary(pl.UTF-8):	AI::NeuralNet::SOM - proste SOM Kohonena
 Name:		perl-AI-NeuralNet-SOM
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1bb481059871065d9376109059ce45c2
+URL:		http://search.cpan.org/dist/AI-NeuralNet-SOM/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
